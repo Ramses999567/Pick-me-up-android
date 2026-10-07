@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q PickMeUpAndroid_GitHubReady_v2.zip -d project
+          unzip -q PickMeUpAndroid_GitHubReady_v2-3.zip -d project
           echo "PROJECT_DIR=$GITHUB_WORKSPACE/project/PickMeUpAndroid" >> $GITHUB_ENV
 
       - name: Setup Java
